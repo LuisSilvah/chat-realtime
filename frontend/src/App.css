@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: aliceblue;
+}
+.App {
+  text-align: center;
+}
+
+.message {
+  height: 200px;
+  width: 250px;
+  border: 1px solid #000;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.message .item {
+  display: flex;
+  flex-direction: column
+}
